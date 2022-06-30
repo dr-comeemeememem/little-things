@@ -1,8 +1,10 @@
-function what() {
-  const person = {
-    one: alert("one"),
-    two: alert("one"),
-    three: alert("one"),
-    four: alert("one")
-  };
-}
+const person = {
+  one: function() {alert("one")},
+  two: function() {alert("2")},
+  three: function() {alert("three")},
+  four: function() {alert("4")}
+};
+person.one();
+person.two();
+person.three();
+person.four();
