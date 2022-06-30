@@ -4,7 +4,7 @@ const person = {
   three: function() {alert("three")},
   four: function() {alert("4")}
 };
-person.one();
-person.two();
-person.three();
-person.four();
+person.one;
+person.two;
+person.three;
+person.four;
