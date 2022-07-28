@@ -37,8 +37,8 @@ function police(text){
 function clicked(letter) {
   document.getElementById(letter).addEventListener("click", () => {
 	  alert(police(letter));
-  }
-});
+  });
+};
 clicked("a");
 clicked("b");
 clicked("c");
@@ -65,4 +65,3 @@ clicked("w");
 clicked("x");
 clicked("y");
 clicked("z");
-	
